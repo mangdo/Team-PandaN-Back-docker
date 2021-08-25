@@ -6,4 +6,4 @@ ARG PROPERTIES_FILE=src/main/resources/application.properties
 COPY ${JAR_FILE} app.jar
 COPY ${PROPERTIES_FILE} application-prod.properties
 
-ENTRYPOINT ["java", "-jar", "-Dspring.profiles.active=prod", "/app.jar"]
+ENTRYPOINT ["java", "-jar", "-Dspring.profiles.active=prod","-Duser.timezone=Asia/Seoul", "/app.jar"]
