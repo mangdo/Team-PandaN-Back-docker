@@ -33,7 +33,7 @@ public class ProjectServiceTest {
 
         // when
         assertThat(project.getTitle()).isEqualTo(requestDto.getTitle());
-        assertThat(project2.getTitle()).isEqualTo(requestDto.getTitle());
+        //assertThat(project2.getTitle()).isEqualTo(requestDto.getTitle());
 
     }
 }
