@@ -18,6 +18,8 @@ public class ProjectServiceTest {
     @Test
     @DisplayName("프로젝트 만들기")
     public void createProject(){
+        // test
+        
         // given
         ProjectRequestDto requestDto = ProjectRequestDto.builder()
                                             .title("프로젝트 제목")
